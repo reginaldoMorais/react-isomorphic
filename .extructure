@@ -1,0 +1,49 @@
+/aws
+  /.evextensions
+    02limits.config
+    04autoscaling.config
+    05timezone.config
+  eb_config.json
+
+/client
+  index.jsx
+
+/config
+  config.json
+
+/logs
+  .gitkeep
+
+/public
+  /images
+  /styles
+
+/server
+  /controllers
+    health.js
+    resource-status.js
+    administration.js
+  /middlewares
+  /helpers
+  /views
+    index.hbs
+  index.js
+
+/src
+  /config
+    index.js
+  /helpers
+    index.js
+    pace.js
+  /views
+    /templates
+    /view
+      /auth
+      /home
+      Controller.jsx
+      LayoutIn.jsx
+      LayoutOut.jsx
+      PageNotFound.jsx
+    Imports.js
+    Reducers.js
+    Routes.jsx
